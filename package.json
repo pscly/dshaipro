@@ -1,0 +1,36 @@
+{
+  "name": "dshaipro",
+  "version": "0.1.0",
+  "description": "Model health checks for OpenAI-compatible endpoints: which advertised models actually answer, how fast, and why the others fail.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "dshaipro": "bin/dshaipro.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "llm",
+    "openai-compatible",
+    "healthcheck",
+    "probe",
+    "relay",
+    "sub2api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pscly/dshaipro.git"
+  },
+  "homepage": "https://github.com/pscly/dshaipro",
+  "publishConfig": {
+    "access": "public"
+  }
+}
